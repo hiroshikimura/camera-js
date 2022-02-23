@@ -1,0 +1,37 @@
+<!DOCTYPE html lang="ja">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/capture.css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" ></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="js/capture.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8">
+          <video autoplay></video>
+          <canvas class="d-none"></canvas>
+        
+          <div class="video-options">
+            <select name="" id="" class="custom-select">
+              <option value="">Select camera</option>
+            </select>
+          </div>
+        
+          <div class="image-list d-none">
+          </div>
+
+          <div class="controls">
+            <button class="btn btn-danger play" title="Play"><i data-feather="play-circle"></i></button>
+            <button class="btn btn-info pause d-none" title="Pause"><i data-feather="pause"></i></button>
+            <button class="btn btn-outline-success screenshot d-none" title="ScreenShot"><i data-feather="image"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
